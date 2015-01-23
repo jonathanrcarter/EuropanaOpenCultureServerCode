@@ -1,0 +1,2 @@
+Ti.include("loginStatus.js","create.js","login.js","logout.js","query.js","remove.js","requestResetPassword.js","search.js","show.js","showMe.js","update.js","secureIdentity.js");
+windowFunctions.Users=function(){var b=createWindow(),a=addBackButton(b),a=Ti.UI.createTableView({backgroundColor:"#fff",top:a+u,data:createRows("Login Status,Create User,Login User,Secure Identity,Request Reset Password,Show Current User,Update Current User,Remove Current User,Logout Current User,Query User,Search User".split(","))});a.addEventListener("click",handleOpenWindow);b.add(a);b.open()};

@@ -1,0 +1,2 @@
+windowFunctions["Show Collection's Photos"]=function(e){var d=createWindow(),f=addBackButton(d),a=Ti.UI.createScrollView({top:f+u,contentHeight:"auto",layout:"vertical"});d.add(a);var c=Ti.UI.createLabel({text:"Loading, please wait...",textAlign:"left",height:30+u,left:20+u,right:20+u});a.add(c);Cloud.PhotoCollections.showPhotos({collection_id:e.id},function(b){a.remove(c);b.success?!b.photos||!b.photos.length?(c.text="There are no photos here yet!",a.add(c)):enumerateProperties(a,b.photos,20):error(b)});
+d.open()};

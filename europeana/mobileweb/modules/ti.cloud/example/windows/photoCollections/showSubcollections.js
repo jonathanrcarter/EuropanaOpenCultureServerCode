@@ -1,0 +1,2 @@
+windowFunctions["Show Subcollections"]=function(e){var d=createWindow(),f=addBackButton(d),a=Ti.UI.createScrollView({top:f+u,contentHeight:"auto",layout:"vertical"});d.add(a);var c=Ti.UI.createLabel({text:"Loading, please wait...",textAlign:"left",height:30+u,left:20+u,right:20+u});a.add(c);Cloud.PhotoCollections.showSubcollections({collection_id:e.id},function(b){a.remove(c);b.success?!b.collections||!b.collections.length?(c.text="There are no subcollections yet!",a.add(c)):enumerateProperties(a,
+b.collections,20):error(b)});d.open()};

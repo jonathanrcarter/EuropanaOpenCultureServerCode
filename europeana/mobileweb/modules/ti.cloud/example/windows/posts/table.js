@@ -1,0 +1,1 @@
+Ti.include("create.js","show.js","query.js","update.js","remove.js");windowFunctions.Posts=function(){var b=createWindow(),a=addBackButton(b),a=Ti.UI.createTableView({backgroundColor:"#fff",top:a+u,data:createRows(["Create Post","Query Post"])});a.addEventListener("click",handleOpenWindow);b.add(a);b.open()};

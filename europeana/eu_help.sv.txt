@@ -1,0 +1,52 @@
+﻿<html>
+<head>
+<style>
+* {
+	background-color : #000;
+	color : #fff;
+	font-family : Arial;
+	font-size : 12px;
+}
+</style>
+<script>
+function goto(S) {
+	Ti.App.fireEvent("app:mainviewHELP_respondtohtmlcontent",{searchterm:S});
+}
+</script>
+</head>
+<body>
+<h1>Europeana Open Culture</h1>
+<p>
+Europeana Open Culture ger dig fri tillgång till ett urval vackra och interessanta samlingar från några av Europas främsta museum, arkiv och bibliotek. Utforska våra teman eller sök fritt själv. Har du hittat något du tycker speciellt mycket om? Spara, kommentera, dela eller länka!
+</p>
+
+<h1>Grunderna:</h1>
+<p>
+Meny (längst upp till vänster) - tar dig till hemsidan, dina favoriter eller till denna hjälpsidan. Du kan också aktivera automatisk översättning av dina sökord och resultat.
+<br>
+Sökrutan - skriv in dina sökord här
+<br>
+Filter - lägg till fler sökord eller lägg till filter för att snäva in din sökning
+<br>
+<br>
+Det här kan du göra med en bild:
+<br>
+Bakåtpil - gå tillbaka till sökresultaten
+<br>
+Info - mer detaljer om bilden och länkar till institutionen som bilden är från eller till Europeana
+<br>
+Favorit - spara bilden till dina favoriter
+<br>
+Länka - sök efter mer information om bilden och länka till den
+<br>
+Kommentera - dela dina synpunkter om bilden med andra användare av appen
+<br>
+Dela - dela bilden på Twitter, Facebook eller Pinterest
+<br>
+<br>
+Spara - spara ner bilden till din mobil eller läsplatta
+<br>
+Download - save the image to your device<br>
+</p>
+</body>
+</html>

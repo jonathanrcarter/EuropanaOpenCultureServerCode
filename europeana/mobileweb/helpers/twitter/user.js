@@ -1,0 +1,1 @@
+function user(a){this.type=a;this.picture=this.username=this.name="";this.connected=this.loggedin=!1}module.exports=user;

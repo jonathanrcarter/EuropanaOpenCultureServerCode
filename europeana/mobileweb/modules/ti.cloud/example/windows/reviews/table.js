@@ -1,0 +1,1 @@
+Ti.include("create.js","show.js","query.js","update.js","remove.js");windowFunctions.Reviews=function(){var b=createWindow(),a=addBackButton(b),a=Ti.UI.createTableView({backgroundColor:"#fff",top:a+u,data:createRows(["Create Review","Query Review"])});a.addEventListener("click",handleOpenWindow);b.add(a);b.open()};

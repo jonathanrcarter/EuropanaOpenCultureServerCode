@@ -1,0 +1,61 @@
+<?php
+
+static $lang = array(
+	"es" => "Español",
+	"e404" => "Esta búsqueda no da ningún resultado, pruebe otro término de búsqueda.",
+	"Title" => "Título",
+	"Creator" => "Autor",
+	"Type" => "Tipo",
+	"Created" => "Creación",
+	"Rights" => "Derechos",
+	"Language" => "Idioma",
+	"Country" => "País",
+	"Contributor" => "Contribuidor",
+	"Format" => "Formato",
+	"Source" => "Origen",
+	"Extent" => "Grado",
+	"Part_of" => "Parte de",
+	"Issued" => "Publicado",
+	"Medium" => "Medio",
+	"Rights" => "Derechos",
+	"View_in_Europeana" => "Ver en Europeana",
+	"general_link" => "Enlace general",
+	"extra_options" => array(
+		"label" => "Por tipo",
+		"options" => array(
+			array(
+				"label" => "Pinturas", 
+				"hiddenquery" => "&qf=schilderij",
+				"themes" => "1"
+			),
+			array(
+				"label" => "Dibujos",  
+				"hiddenquery" => "&qf=tekening",
+				"themes" => "1,3"
+			),
+			array(
+				"label" => "Impresiones",  
+				"hiddenquery" => "&qf=prent",
+				"themes" => "1,3"
+			),
+			array(
+				"label" => "Esculturas",  
+				"hiddenquery" => "&qf=sculptuur",
+				"themes" => "1"
+			),
+			array(
+				"label" => "Joiería",  
+				"hiddenquery" => "&qf=sieraad",
+				"themes" => "1"
+			),
+			array(
+				"label" => "Arte japonés",  
+				"hiddenquery" => "&qf=Japan",
+				"themes" => "1"
+			)
+		)
+	),
+	"lang" => "es"
+);
+
+?>

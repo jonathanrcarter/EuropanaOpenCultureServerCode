@@ -1,0 +1,61 @@
+<?php
+
+static $lang = array(
+	"de" => "Deutsch",
+	"e404" => "Diese Suche ergab keinen Treffer, bitte einen anderen Suchbegriff verwenden",
+	"Title" => "Titel",
+	"Creator" => " Verfasser",
+	"Type" => "Typ",
+	"Created" => "Verfasst",
+	"Rights" => " Rechte",
+	"Language" => "Sprache",
+	"Country" => "Land",
+	"Contributor" => "Mitwirkender",
+	"Format" => " Format",
+	"Source" => "Quelle",
+	"Extent" => "Größe",
+	"Part_of" => "Teil von",
+	"Issued" => "Veröffentlicht am",
+	"Medium" => "Medientyp",
+	"Rights" => "Rechte",
+	"View_in_Europeana" => "Betrachte in Europeana",
+	"general_link" => "Allgemein Link",
+	"extra_options" => array(
+		"label" => "Nach Typ",
+		"options" => array(
+			array(
+				"label" => "Gemälde", 
+				"hiddenquery" => "&qf=schilderij",
+				"themes" => "1"
+			),
+			array(
+				"label" => "Zeichnungen",  
+				"hiddenquery" => "&qf=tekening",
+				"themes" => "1,3"
+			),
+			array(
+				"label" => "Drucke",  
+				"hiddenquery" => "&qf=prent",
+				"themes" => "1,3"
+			),
+			array(
+				"label" => "Skulpturen",  
+				"hiddenquery" => "&qf=sculptuur",
+				"themes" => "1"
+			),
+			array(
+				"label" => "Schmuck",  
+				"hiddenquery" => "&qf=sieraad",
+				"themes" => "1"
+			),
+			array(
+				"label" => "Japanische Kunst",  
+				"hiddenquery" => "&qf=Japan",
+				"themes" => "1"
+			)
+		)
+	),
+	"lang" => "de"
+);
+
+?>

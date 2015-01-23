@@ -1,0 +1,1 @@
+Ti.include("create.js","query.js","show.js");windowFunctions.Status=function(){var b=createWindow(),a=addBackButton(b),a=Ti.UI.createTableView({backgroundColor:"#fff",top:a+u,data:createRows(["Create Status","Query Status","Show Status for User"])});a.addEventListener("click",handleOpenWindow);b.add(a);b.open()};

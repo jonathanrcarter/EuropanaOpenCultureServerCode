@@ -1,0 +1,1 @@
+Ti.include("create.js","query.js","remove.js","search.js","show.js","update.js");windowFunctions.Places=function(){var b=createWindow(),a=addBackButton(b),a=Ti.UI.createTableView({backgroundColor:"#fff",top:a+u,data:createRows(["Create Place","Query Place","Search Place"])});a.addEventListener("click",handleOpenWindow);b.add(a);b.open()};

@@ -1,0 +1,1 @@
+Ti.include("add.js","approve.js","searchUsers.js","search.js","remove.js");windowFunctions.Friends=function(){var b=createWindow(),a=addBackButton(b),a=Ti.UI.createTableView({backgroundColor:"#fff",top:a+u,data:createRows(["Add Friends","Approve Friends","Search Friends","Remove Friends"])});a.addEventListener("click",handleOpenWindow);b.add(a);b.open()};

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="lang">pl</string>
+	<string name="sechead_DATA_PROVIDER">Według dostawcy treści</string>
+	<string name="sechead_LANGUAGE">Według języka</string>
+	<string name="sechead_YEAR">Według roku</string>
+	<string name="sechead_PROVIDER">Według dostawcy treści</string>
+	<string name="sechead_COUNTRY">Według kraju</string>
+	<string name="sechead_RIGHTS">Według prawach</string>
+	<string name="sechead_TYPE">Według typu</string>
+	<string name="sidenav_info">Informacje</string>
+	<string name="sidenav_favourite">Ulubione</string>
+	<string name="sidenav_connect">Połącz</string>
+	<string name="sidenav_comment">Skomentuj</string>
+	<string name="sidenav_share">Podziel się</string>
+	<string name="post_a_comment">Opublikuj komentarz</string>
+	<string name="What">Co</string>
+	<string name="Where">Gdzie</string>
+	<string name="When">Kiedy</string>
+	<string name="Who">Kto</string>
+	<string name="General_link">Główny link</string>
+	<string name="what">Co</string>
+	<string name="where">Gdzie</string>
+	<string name="when">Kiedy</string>
+	<string name="who">Kto</string>
+	<string name="general_link">Główny link</string>
+	<string name="comment">Skomentuj</string>
+	<string name="add_comment_window_head">Dodaj komentarz</string>
+	<string name="Add_Link">Dodaj link</string>
+	<string name="pin_to_pinterest">Opublikuj w Pintereście</string>
+	<string name="What_do_you_want_to_say">Co chcesz powiedzieć?</string>
+	<string name="Almost_there">Prawie gotowe, prosimy wybierz kategorię relacji</string>
+	<string name="Final_step">Ostatni krok – prosimy opisz relację, którą tworzysz</string>
+	<string name="add_link_error">Musisz zrobić opis iI wskazac opisywany obiekt (CO, GDZIE, KIEDY, KTO, OGÓLNIE) przed dodaniem linku.</string>
+	<string name="sidemenu_Home">Strona główna</string>
+	<string name="sidemenu_Results">Wyniki wyszukiwania</string>
+	<string name="sidemenu_Favourutes">Ulubione</string>
+	<string name="sidemenu_Help">Pomoc</string>
+	<string name="Help">Pomoc</string>
+	<string name="search_hint">Przeszukaj wybrane obiekty z kolekcji Europeany</string>
+	<string name="Send">Wyslij</string>
+	<!-- new -->
+	<string name="sechead_BYTYPE">Po typie</string>
+	<string name="Refine_your_results">Udoskonalenia swoich wyników</string>
+	<string name="Add_more_keywords">Dodaj więcej słów kluczowych</string>
+	<string name="Matches_for">Meczach za</string>
+	<string name="share_on_facebook">Wklej na Facebook</string>
+	<string name="share_on_twitter">Akcji na Twitter</string>
+	<string name="pin_on_pinterest">Opublikuj w Pintereściet</string>
+	<string name="share_option_cancel">Anulować</string>
+	<string name="share_option_title">Podzielenie</string>
+	<string name="Refine">Oczyścić</string>
+	<string name="sechead_queryset">Motyw</string>
+	<!-- v1.4.x -->
+	<string name="close_app">Close App</string>
+	<string name="locale_message">The Language on the device has changed , the application needs to close and restart</string>
+	<string name="locale_title">Language Change Detected</string>
+	<string name="translate">translate</string>
+	<string name="translate_text">Automatically translating your search will result in better results, however it will take longer</string>
+	<string name="sidenav_download">Download</string>
+	<string name="Photo_Gallery">Photo Gallery</string>
+	<string name="Image_saved">Image downloded</string>
+	<string name="Error_saving_image">There was an error downloading the image</string>
+	<string name="download_message">Would you like to save the image</string>
+	<string name="download_title">Save image</string>
+	<string name="Confirm">Confirm</string>
+	<string name="Cancel">Cancel</string>
+	<string name="Load_More">Load More</string>
+	<!-- end -->
+</resources>

@@ -1,0 +1,1 @@
+function ShareButton(){var a=Titanium.UI.createOptionDialog({cancel:1,options:["Share on Twitter","Share on Facebook","Cancel"],message:"",title:""});a.addEventListener("click",function(a){0==a.index&&require("/helpers/twitter/twitter_connect").postdialog();1==a.index&&require("/ui/common/facebook_connect").postdialog()});return a}module.exports=ShareButton;

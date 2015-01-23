@@ -1,0 +1,2 @@
+windowFunctions["Login Status"]=function(){var b=createWindow(),a=addBackButton(b),a=Ti.UI.createScrollView({top:a+u,contentHeight:"auto",layout:"vertical"});b.add(a);a.add(Ti.UI.createLabel({text:"accessToken: "+Cloud.accessToken,textAlign:"left",height:40+u,left:20+u,right:20+u}));a.add(Ti.UI.createLabel({text:"expiresIn: "+Cloud.expiresIn,textAlign:"left",height:40+u,left:20+u,right:20+u}));a.add(Ti.UI.createLabel({text:"sessionId: "+Cloud.sessionId,textAlign:"left",height:40+u,left:20+u,right:20+
+u}));b.open()};

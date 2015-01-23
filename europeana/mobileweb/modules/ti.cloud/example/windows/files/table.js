@@ -1,0 +1,1 @@
+Ti.include("create.js","query.js","show.js","remove.js","update.js");windowFunctions.Files=function(){var b=createWindow(),a=addBackButton(b),a=Ti.UI.createTableView({backgroundColor:"#fff",top:a+u,data:createRows(["Create File","Query Files"])});a.addEventListener("click",handleOpenWindow);b.add(a);b.open()};

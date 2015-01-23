@@ -1,0 +1,30 @@
+[{ 
+	"img" : "featured-maps.jpg", 
+	"txt" : "Maps and Plans",
+	"query2" : "0",
+	"hiddenquery" : "&qf=DATA_PROVIDER:\"Cat%C3%A1logo+Colectivo+de+la+Red+de+Bibliotecas+de+los+Archivos+Estatales\"&qf=DATA_PROVIDER:\"Biblioteca+Virtual+del+Patrimonio+Bibliogr%C3%A1fico\"&qf=TYPE:IMAGE&qf=DATA_PROVIDER:\"Biblioteca+Virtual+del+Ministerio+de+Defensa\"",
+	"query" : "",
+	"hide" : "RIGHTS,PROVIDER,TYPE",
+	"oldquery" : "&qf=DATA_PROVIDER:\"Cat%C3%A1logo+Colectivo+de+la+Red+de+Bibliotecas+de+los+Archivos+Estatales\"|&qf=DATA_PROVIDER:\"Biblioteca+Virtual+del+Patrimonio+Bibliogr%C3%A1fico\"|&qf=TYPE:IMAGE|&qf=DATA_PROVIDER:\"Biblioteca+Virtual+del+Ministerio+de+Defensa\""
+},{ 
+	"img" : "featured-art.jpg", 
+	"query2" : "1",
+	"query" : "",
+	"hiddenquery" : "&qf=TYPE:IMAGE&qf=DATA_PROVIDER:\"Rijksmuseum\"&qf=DATA_PROVIDER:\"Museum+Rotterdam\"&qf=DATA_PROVIDER:\"Historisch+Museum+Rotterdam\"&qf=DATA_PROVIDER:\"Amsterdam+Museum\"",
+    "hide" : "RIGHTS,PROVIDER,TYPE",
+	"txt" : "Treasures of Art"
+},{ 
+	"img" :"featured-nature.jpg", 
+	"query2" : "2",
+	"query" : "",
+	"hiddenquery" : "&qf=TYPE:IMAGE&qf=DATA_PROVIDER:\"The+Royal+Botanic+Garden+Edinburgh\"&qf=DATA_PROVIDER:\"University+of+Tartu,+Natural+History+Museum\"&qf=DATA_PROVIDER:\"Museum+of+Geology,+University+of+Tartu\"&qf=DATA_PROVIDER:\"Royal+Belgian+Institute+of+Natural+Sciences\"",
+	"hide" : "RIGHTS,PROVIDER,TYPE",
+	"txt" : "Treasures of Nature"
+},{
+	"img" :"featured-past2.jpg",
+	"query2" : "3",
+	"query" : "",
+	"hiddenquery" : "&qf=TYPE:IMAGE&qf=DATA_PROVIDER:\"Riksantikvarieämbetet\"&qf=DATA_PROVIDER:\"The+National+Library+of+Poland+-+Biblioteka+Narodowa\"&qf=DATA_PROVIDER:\"Biblioteca+Valenciana+Digital\"&qf=DATA_PROVIDER:\"Fondo+Fotográfico+de+la+Universidad+de+Navarra\"&qf=DATA_PROVIDER:\"Biblioth%C3%A8que+de+l'Alliance+isra%C3%A9lite+universelle\"&qf=DATA_PROVIDER:\"Persmuseum\"",
+    "hide" : "RIGHTS,PROVIDER,TYPE",
+	"txt" : "Images of the Past"
+}]

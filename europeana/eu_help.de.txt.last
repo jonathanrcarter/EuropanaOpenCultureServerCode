@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+* {
+	background-color : #000;
+	color : #fff;
+	font-family : Arial;
+	font-size : 12px;
+}
+</style>
+<script>
+function goto(S) {
+	Ti.App.fireEvent("app:mainviewHELP_respondtohtmlcontent",{searchterm:S});
+}
+</script>
+</head>
+<body>
+<h1>Europeana Open Culture</h1>
+<p>
+Europeana Open Culture stellt Ihnen schöne und handverlesene Sammlungen einiger der besten Museen, Gallerien, Bibliotheken und Archive vor. Stöbern Sie in unseren thematischen Sammlungen oder gestalten Sie Ihre eigene Suche. Haben Sie etwas gefunden das Ihnen gefällt? Speichern Sie es, kommentieren Sie es, teilen Sie es oder verlinken Sie es!
+</p>
+
+<h1>Die Grundlagen:</h1>
+<p>Menü (oben links) – führt Sie zur Homepage, ihren gespeicherten Favoriten oder dieser Hilfeseite. Sie können auch die automatische Übersetzung für Ihre Suche und Treffer aktivieren.</p>
+<p>Neue Suche‘-Schlitz – geben Sie Ihr Schlagwort ein und beginnen Sie zu stöbern</p>
+<p>Verfeinern – fügen Sie mehr Schlagworte hinzu, oder filtern Sie nach Typ, Sprache, Jahr oder Land, um Ihre Suche einzugrenzen</p>
+
+<p>
+Das können Sie mit einem einzelnen Bild machen:<br>
+Klicken und halten Sie das Bild um es auf Ihrem Gerät abzuspeichern<br>
+Zurück – zurück zu den Ergebnissen<br>
+Information – mehr Details des Bildes, inclusive Links zum Datenlieferanten und der Europeana Website<br>
+Favorit – speichern Sie das Bild unter Ihren Favoriten<br>
+Verbinden – suchen Sie nach diesem Bild auf anderen Seiten und speichern Sie die Informationen, die Sie finden<br>
+Kommentar – teilen Sie Ihre Meinung über dieses Bild so dass alle App-Nutzer es sehen können<br>
+STeilen – wählen Sie Ihr soziales Netzwerk aus und teilen Sie dieses Bild<br>
+Herunterladen – das Bild auf Ihrem Gerät speichern<br>
+</p>
+<p>
+
+</p>
+</body>
+</html>

@@ -1,0 +1,1 @@
+exports.isIPhone3_2_Plus=function(){if("iPhone OS"==Titanium.Platform.name){var a=Titanium.Platform.version.split("."),b=parseInt(a[0]),a=parseInt(a[1]);if(3<b||3==b&&1<a)return!0}return!1};exports.isiOS4Plus=function(){if("iPhone OS"==Titanium.Platform.name){var a=Titanium.Platform.version.split(".");if(4<=parseInt(a[0]))return!0}return!1};

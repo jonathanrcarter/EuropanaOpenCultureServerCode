@@ -1,0 +1,1 @@
+var gwdb=require("/helpers/gwdb"),globals=require("/ui/common/globals"),css=require("/ui/common/css");function settings(){var a=Titanium.UI.createWindow({navBarHidden:!0,title:"Settings",backgroundGradient:css.WINGRAD2}),b=Titanium.UI.createImageView({width:1024,height:768,image:"images/splash.png"});a.add(b);return a}module.exports=settings;

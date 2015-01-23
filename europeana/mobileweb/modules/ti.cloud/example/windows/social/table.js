@@ -1,0 +1,2 @@
+Ti.include("externalLink.js","externalLogin.js","externalUnlink.js","searchFacebookFriends.js");
+windowFunctions.Social=function(){var c=createWindow(),a=addBackButton(c),b=["Search Facebook Friends"];if(Ti.Facebook.createLoginButton){var d=!0;try{Ti.Facebook.createLoginButton()}catch(e){d=!1}d&&(b.push("External Link"),b.push("External Login"),b.push("External Unlink"))}a=Ti.UI.createTableView({backgroundColor:"#fff",top:a+u,data:createRows(b)});a.addEventListener("click",handleOpenWindow);c.add(a);c.open()};

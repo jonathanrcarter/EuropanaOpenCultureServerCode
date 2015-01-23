@@ -1,0 +1,1 @@
+var globals=require("/ui/common/globals");function fn(){var b=Ti.UI.createTabGroup(),a=new (require("ui/common/SearchWindow")),a=Ti.UI.createTab({title:"Muse",window:a,icon:"/images/glyphicons_020_home.png"});b.addTab(a);Titanium.App.addEventListener("gototab",function(a){b.setActiveTab(a.n)});globals.set("tabgroup",b);return b}module.exports=fn;

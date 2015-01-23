@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+* {
+	background-color : #000;
+	color : #fff;
+	font-family : Arial;
+	font-size : 12px;
+}
+</style>
+<script>
+function goto(S) {
+	Ti.App.fireEvent("app:mainviewHELP_respondtohtmlcontent",{searchterm:S});
+}
+</script>
+</head>
+<body>
+<h1>Europeana Open Culture</h1>
+<p>
+Europeana Open Culture  le introduce a una bonita selección manual de colecciones de algunos de los mejores museos,  galerías, bibliotecas y archivos de Europa. Explore nuestros temas especialmente seleccionados o realize sus propias búsquedas. Encuentra algo que le gusta? Guárdelo, coméntelo, compártalo o enlácelo! 
+</p>
+
+<h1>Los básicos:</h1>
+<p>Menu (izquierda superior) – Te dirige a la pàgina principal, a tus favoritos o a la página de ayuda. También se puede activar la traducción automática en tus búsquedas y resultados.</p>
+<p>'Nueva búsqueda' – escribe una palabra y empieza a explorar</p>
+<p>Refina – añade más palabras, o filtra por tipo, idioma, año o país para perfeccionar tu búsqueda
+
+</p>
+
+<p>
+Esto es lo que se puede hacer con una imagen:<br>
+Apreta sobre la imagen para guardarla en tu dispositivo<br>
+Flecha atrás – volver a los resultados<br>
+Info– para más detalles sobre la imagen, incluyendo enlaces al proveedor y al web de Europeana<br>
+Favorito – guardar esta imagen como favorita<br>
+Connecta – busca esta imagen en otras páginas y guarda la información que encuentres<br>
+Comenta – comparte tu opinion de esta imagen con otros usuarios de esta App<br>
+Comparte – Comparte esta imagen en tu red social<br>
+Descargar imagen en su dispositivo<br>
+</p>
+<p>
+
+</p>
+</body>
+</html>
